@@ -58,13 +58,14 @@ msgstr "運算式中的輸入 %i 無效 (未傳遞)"
 msgid "self can't be used because instance is null (not passed)"
 msgstr "因該實例(instance)為空，self 無法被使用"
 
+#, fuzzy
 #: core/math/expression.cpp
 msgid "Invalid operands to operator %s, %s and %s."
 msgstr "此數值無法被 %s、%s 和与%s 運算。"
 
 #: core/math/expression.cpp
 msgid "Invalid index of type %s for base type %s"
-msgstr "無效的內存地址類型 %s，基礎型式 %s"
+msgstr "無效的索引類型 %s，基礎型式 %s"
 
 #: core/math/expression.cpp
 msgid "Invalid named index '%s' for base type %s"
@@ -128,15 +129,15 @@ msgstr "數值:"
 
 #: editor/animation_bezier_editor.cpp
 msgid "Insert Key Here"
-msgstr "在此插入畫格"
+msgstr "在此插入影格"
 
 #: editor/animation_bezier_editor.cpp
 msgid "Duplicate Selected Key(s)"
-msgstr "複製所選畫格"
+msgstr "複製所選影格"
 
 #: editor/animation_bezier_editor.cpp
 msgid "Delete Selected Key(s)"
-msgstr "刪除所選畫格"
+msgstr "刪除所選影格"
 
 #: editor/animation_bezier_editor.cpp
 msgid "Add Bezier Point"
@@ -148,15 +149,15 @@ msgstr "移動Bezier點"
 
 #: editor/animation_bezier_editor.cpp editor/animation_track_editor.cpp
 msgid "Anim Duplicate Keys"
-msgstr "複製關鍵畫格"
+msgstr "複製關鍵影格"
 
 #: editor/animation_bezier_editor.cpp editor/animation_track_editor.cpp
 msgid "Anim Delete Keys"
-msgstr "刪除關鍵畫格"
+msgstr "刪除關鍵影格"
 
 #: editor/animation_track_editor.cpp
 msgid "Anim Change Keyframe Time"
-msgstr "變更關鍵畫格的時間"
+msgstr "變更關鍵影格的時間"
 
 #: editor/animation_track_editor.cpp
 msgid "Anim Change Transition"
@@ -177,7 +178,7 @@ msgstr "更改回調"
 #: editor/animation_track_editor.cpp
 #, fuzzy
 msgid "Anim Multi Change Keyframe Time"
-msgstr "變更關鍵畫格的時間"
+msgstr "變更關鍵影格的時間"
 
 #: editor/animation_track_editor.cpp
 #, fuzzy
@@ -192,7 +193,7 @@ msgstr "變更動畫變換"
 #: editor/animation_track_editor.cpp
 #, fuzzy
 msgid "Anim Multi Change Keyframe Value"
-msgstr "變更關鍵畫格的數值"
+msgstr "變更關鍵影格的數值"
 
 #: editor/animation_track_editor.cpp
 #, fuzzy
@@ -342,17 +343,16 @@ msgstr "Wrap式內插循環"
 #: editor/animation_track_editor.cpp
 #: editor/plugins/canvas_item_editor_plugin.cpp
 msgid "Insert Key"
-msgstr "插入畫格"
+msgstr "插入影格"
 
 #: editor/animation_track_editor.cpp
 #, fuzzy
 msgid "Duplicate Key(s)"
-msgstr "複製動畫關鍵畫格"
+msgstr "複製影格"
 
 #: editor/animation_track_editor.cpp
-#, fuzzy
 msgid "Delete Key(s)"
-msgstr "刪除動畫關鍵畫格"
+msgstr "刪除影格"
 
 #: editor/animation_track_editor.cpp
 msgid "Change Animation Update Mode"
@@ -461,16 +461,16 @@ msgstr "添加動畫軌"
 
 #: editor/animation_track_editor.cpp
 msgid "Track path is invalid, so can't add a key."
-msgstr "軌道路徑無效, 因此無法添加鍵。"
+msgstr "軌道路徑無效, 因此無法添加影格。"
 
 #: editor/animation_track_editor.cpp
 msgid "Track is not of type Spatial, can't insert key"
-msgstr "軌道不是空間類型, 不能插入鍵"
+msgstr "軌道不是空間類型, 不能插入影格"
 
 #: editor/animation_track_editor.cpp
 #, fuzzy
 msgid "Add Transform Track Key"
-msgstr "動畫新增軌跡與按鍵"
+msgstr "新增變換影格"
 
 #: editor/animation_track_editor.cpp
 #, fuzzy
@@ -484,7 +484,7 @@ msgstr "跟蹤路徑無效, 因此無法添加方法鍵。"
 #: editor/animation_track_editor.cpp
 #, fuzzy
 msgid "Add Method Track Key"
-msgstr "動畫新增軌跡與按鍵"
+msgstr "新增影格方法"
 
 #: editor/animation_track_editor.cpp
 msgid "Method not found in object: "
@@ -492,7 +492,7 @@ msgstr "在對象中找不到方法： "
 
 #: editor/animation_track_editor.cpp
 msgid "Anim Move Keys"
-msgstr "移動關鍵畫格"
+msgstr "移動關鍵影格"
 
 #: editor/animation_track_editor.cpp
 msgid "Clipboard is empty"
@@ -505,7 +505,7 @@ msgstr "貼上參數"
 
 #: editor/animation_track_editor.cpp
 msgid "Anim Scale Keys"
-msgstr "縮尺鍵"
+msgstr "縮尺影格"
 
 #: editor/animation_track_editor.cpp
 msgid ""
@@ -567,7 +567,7 @@ msgstr "秒"
 #: editor/animation_track_editor.cpp
 #, fuzzy
 msgid "FPS"
-msgstr "每秒張數"
+msgstr "每秒影格數"
 
 #: editor/animation_track_editor.cpp editor/editor_properties.cpp
 #: editor/plugins/polygon_2d_editor_plugin.cpp
@@ -595,7 +595,7 @@ msgstr "縮放所選"
 
 #: editor/animation_track_editor.cpp
 msgid "Scale From Cursor"
-msgstr "由游標縮放"
+msgstr "由鼠標縮放"
 
 #: editor/animation_track_editor.cpp modules/gridmap/grid_map_editor_plugin.cpp
 msgid "Duplicate Selection"
@@ -658,7 +658,7 @@ msgstr "最佳化"
 
 #: editor/animation_track_editor.cpp
 msgid "Remove invalid keys"
-msgstr "移除無效的關鍵畫格"
+msgstr "移除無效的關鍵影格"
 
 #: editor/animation_track_editor.cpp
 msgid "Remove unresolved and empty tracks"
@@ -2062,23 +2062,20 @@ msgid "Description"
 msgstr "描述:"
 
 #: editor/editor_help.cpp
-#, fuzzy
 msgid "Online Tutorials"
-msgstr "線上教學:"
+msgstr "線上教學"
 
 #: editor/editor_help.cpp
 msgid "Properties"
 msgstr "性質"
 
 #: editor/editor_help.cpp
-#, fuzzy
 msgid "override:"
-msgstr "覆蓋"
+msgstr "覆蓋:"
 
 #: editor/editor_help.cpp
-#, fuzzy
 msgid "default:"
-msgstr "預設"
+msgstr "預設:"
 
 #: editor/editor_help.cpp
 msgid "Methods"
@@ -2770,7 +2767,6 @@ msgid "Add a new scene."
 msgstr "新增場景。"
 
 #: editor/editor_node.cpp
-#, fuzzy
 msgid "Scene"
 msgstr "場景"
 
@@ -3305,7 +3301,7 @@ msgstr "措施："
 
 #: editor/editor_profiler.cpp
 msgid "Frame Time (sec)"
-msgstr "幀時間 (秒)"
+msgstr "影格時間 (秒)"
 
 #: editor/editor_profiler.cpp
 msgid "Average Time (sec)"
@@ -3313,11 +3309,11 @@ msgstr "平均時間 (秒)"
 
 #: editor/editor_profiler.cpp
 msgid "Frame %"
-msgstr "幀%"
+msgstr "影格%"
 
 #: editor/editor_profiler.cpp
 msgid "Physics Frame %"
-msgstr "物理幀%"
+msgstr "物理影格%"
 
 #: editor/editor_profiler.cpp
 msgid "Inclusive"
@@ -3329,7 +3325,7 @@ msgstr "自身"
 
 #: editor/editor_profiler.cpp
 msgid "Frame #:"
-msgstr "幀 #:"
+msgstr "影格 #:"
 
 #: editor/editor_profiler.cpp
 msgid "Time"
@@ -3422,7 +3418,7 @@ msgstr "轉換為獨立資源"
 #: editor/plugins/tile_map_editor_plugin.cpp editor/property_editor.cpp
 #: scene/gui/line_edit.cpp scene/gui/text_edit.cpp
 msgid "Paste"
-msgstr "粘貼"
+msgstr "貼上"
 
 #: editor/editor_properties.cpp editor/property_editor.cpp
 #, fuzzy
@@ -3439,7 +3435,7 @@ msgstr "尺寸: "
 
 #: editor/editor_properties_array_dict.cpp
 msgid "Page: "
-msgstr "页: "
+msgstr "頁: "
 
 #: editor/editor_properties_array_dict.cpp
 #: editor/plugins/theme_editor_plugin.cpp
@@ -3448,7 +3444,7 @@ msgstr "移除項目"
 
 #: editor/editor_properties_array_dict.cpp
 msgid "New Key:"
-msgstr "新建帧:"
+msgstr "新建影格:"
 
 #: editor/editor_properties_array_dict.cpp
 #, fuzzy
@@ -4683,11 +4679,11 @@ msgstr "在資源路徑中找不到"
 
 #: editor/plugins/animation_player_editor_plugin.cpp
 msgid "Pasted Animation"
-msgstr "粘貼的動畫"
+msgstr "貼上的動畫"
 
 #: editor/plugins/animation_player_editor_plugin.cpp
 msgid "Paste Animation"
-msgstr "粘貼動畫"
+msgstr "貼上動畫"
 
 #: editor/plugins/animation_player_editor_plugin.cpp
 msgid "No animation to edit!"
@@ -5557,7 +5553,7 @@ msgstr "複製選擇"
 
 #: editor/plugins/canvas_item_editor_plugin.cpp
 msgid "Paste Pose"
-msgstr "粘貼姿勢"
+msgstr "貼上姿勢"
 
 #: editor/plugins/canvas_item_editor_plugin.cpp
 #, fuzzy
@@ -5814,7 +5810,7 @@ msgstr "居中選擇"
 
 #: editor/plugins/canvas_item_editor_plugin.cpp
 msgid "Frame Selection"
-msgstr "幀選擇"
+msgstr "影格選擇"
 
 #: editor/plugins/canvas_item_editor_plugin.cpp
 msgid "Preview Canvas Scale"
@@ -5835,7 +5831,7 @@ msgstr ""
 #: editor/plugins/canvas_item_editor_plugin.cpp
 #, fuzzy
 msgid "Insert keys (based on mask)."
-msgstr "插入幀 (現有軌道)"
+msgstr "插入影格 (現有軌道)"
 
 #: editor/plugins/canvas_item_editor_plugin.cpp
 msgid ""
@@ -5857,7 +5853,7 @@ msgstr "動畫長度（秒）"
 
 #: editor/plugins/canvas_item_editor_plugin.cpp
 msgid "Insert Key (Existing Tracks)"
-msgstr "插入幀 (現有軌道)"
+msgstr "插入影格 (現有軌道)"
 
 #: editor/plugins/canvas_item_editor_plugin.cpp
 msgid "Copy Pose"
@@ -7688,7 +7684,7 @@ msgstr "視圖旋轉已鎖定"
 msgid ""
 "Note: The FPS value displayed is the editor's framerate.\n"
 "It cannot be used as a reliable indication of in-game performance."
-msgstr "注意: 顯示的FPS值是編輯器的幀率。 它不能用于表現遊戲內的實際性能"
+msgstr "注意: 顯示的FPS值是編輯器的影格率。 它無法代表遊戲內的實際效能。"
 
 #: editor/plugins/spatial_editor_plugin.cpp
 msgid "XForm Dialog"
@@ -7696,7 +7692,7 @@ msgstr "XForm對話框"
 
 #: editor/plugins/spatial_editor_plugin.cpp
 msgid "Snap Nodes To Floor"
-msgstr "將節點捕捉到地面"
+msgstr "將節點吸附到地面"
 
 #: editor/plugins/spatial_editor_plugin.cpp
 msgid "Couldn't find a solid floor to snap the selection to."
@@ -7749,7 +7745,7 @@ msgstr "切換 投影/正交 視圖"
 
 #: editor/plugins/spatial_editor_plugin.cpp
 msgid "Insert Animation Key"
-msgstr "插入動畫幀"
+msgstr "插入動畫影格"
 
 #: editor/plugins/spatial_editor_plugin.cpp
 msgid "Focus Origin"
@@ -7997,18 +7993,17 @@ msgid "Settings:"
 msgstr "設定："
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
-#, fuzzy
 msgid "No Frames Selected"
-msgstr "幀選擇"
+msgstr "無選擇影格"
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 #, fuzzy
 msgid "Add %d Frame(s)"
-msgstr "添加幀"
+msgstr "添加影格"
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 msgid "Add Frame"
-msgstr "添加幀"
+msgstr "添加影格"
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 #, fuzzy
@@ -8017,7 +8012,7 @@ msgstr "載入資源失敗。"
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 msgid "ERROR: Couldn't load frame resource!"
-msgstr "錯誤：無法加載幀資源！"
+msgstr "錯誤：無法加載影格資源！"
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 msgid "Resource clipboard is empty or not a texture!"
@@ -8025,11 +8020,11 @@ msgstr "資源剪貼板為空或不是紋理！"
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 msgid "Paste Frame"
-msgstr "粘貼幀"
+msgstr "貼上影格"
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 msgid "Add Empty"
-msgstr "添加空白幀"
+msgstr "添加空白影格"
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 msgid "Change Animation FPS"
@@ -8040,9 +8035,8 @@ msgid "(empty)"
 msgstr "(空)"
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
-#, fuzzy
 msgid "Move Frame"
-msgstr "粘貼幀"
+msgstr "移動影格"
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 #, fuzzy
@@ -8065,7 +8059,7 @@ msgstr "循環"
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 #, fuzzy
 msgid "Animation Frames:"
-msgstr "動畫幀："
+msgstr "動畫影格："
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 #, fuzzy
@@ -8078,11 +8072,11 @@ msgstr ""
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 msgid "Insert Empty (Before)"
-msgstr "插入空白幀（之前）"
+msgstr "插入空白影格（之前）"
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 msgid "Insert Empty (After)"
-msgstr "插入空白幀（之后）"
+msgstr "插入空白影格（之后）"
 
 #: editor/plugins/sprite_frames_editor_plugin.cpp
 msgid "Move (Before)"
@@ -8702,7 +8696,7 @@ msgstr "新增資料夾"
 
 #: editor/plugins/tile_set_editor_plugin.cpp
 msgid "Paste Tile Bitmask"
-msgstr "粘貼磁貼位掩碼"
+msgstr "貼上磁貼位掩碼"
 
 #: editor/plugins/tile_set_editor_plugin.cpp
 msgid "Clear Tile Bitmask"
@@ -13153,11 +13147,10 @@ msgstr ""
 #~ msgid "Tool Scale"
 #~ msgstr "縮放工具"
 
-#, fuzzy
 #~ msgid ""
 #~ "Remove all missing projects from the list? (Folders contents will not be "
 #~ "modified)"
-#~ msgstr "是否從清單中删除項目？（資料夾內容將不被修改）"
+#~ msgstr "是否從清單中移除所有已遺失的專案？（資料夾內容將不被修改）"
 
 #~ msgid "Error initializing FreeType."
 #~ msgstr "初始化 FreeType 錯誤。"
@@ -13228,9 +13221,8 @@ msgstr ""
 #~ msgid "Next Directory"
 #~ msgstr "下一個目錄"
 
-#, fuzzy
 #~ msgid "Ease in"
-#~ msgstr "所有的選擇"
+#~ msgstr "淡入"
 
 #~ msgid "Ease out"
 #~ msgstr "淡出"
@@ -13252,7 +13244,7 @@ msgstr ""
 #~ msgstr "新增"
 
 #~ msgid "Insert keys."
-#~ msgstr "插入幀."
+#~ msgstr "插入影格."
 
 #~ msgid "Line:"
 #~ msgstr "行:"
@@ -13304,20 +13296,17 @@ msgstr ""
 #~ msgid "Match case"
 #~ msgstr "符合大小寫"
 
-#, fuzzy
 #~ msgid "Search in files"
-#~ msgstr "搜尋 Class"
+#~ msgstr "從檔案搜尋"
 
-#, fuzzy
 #~ msgid "Convert To Uppercase"
-#~ msgstr "轉換成..."
+#~ msgstr "轉換成大寫"
 
-#, fuzzy
 #~ msgid "Convert To Lowercase"
-#~ msgstr "轉換成..."
+#~ msgstr "轉換成小寫"
 
 #~ msgid "Move Anim Track Up"
-#~ msgstr "上移動畫軌"
+#~ msgstr "動畫軌上移"
 
 #~ msgid "Move Anim Track Down"
 #~ msgstr "動畫軌下移"
@@ -13342,7 +13331,7 @@ msgstr ""
 #~ msgstr "編輯所選曲線"
 
 #~ msgid "Anim Add Key"
-#~ msgstr "添加動畫關鍵畫格"
+#~ msgstr "添加動畫關鍵影格"
 
 #~ msgid "In"
 #~ msgstr "進"
@@ -13385,7 +13374,7 @@ msgstr ""
 #~ msgstr "啟用可使用點擊來更改各個鍵。"
 
 #~ msgid "Key"
-#~ msgstr "鍵"
+#~ msgstr "影格"
 
 #~ msgid "Call Functions in Which Node?"
 #~ msgstr "呼叫哪個節點裡的函式?"
